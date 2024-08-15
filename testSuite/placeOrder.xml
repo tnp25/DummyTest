@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+
+    <listeners>
+        <listener class-name="demo.testComponents.Listeners"/>
+    </listeners>
+
+    <test verbose="2" name="C:/Users/navee/IdeaProjects/DemoAutomationProjrct">
+        <classes>
+            <class name="demo.tests.SubmitOrderTest">
+                <methods>
+                    <include name="placeOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
